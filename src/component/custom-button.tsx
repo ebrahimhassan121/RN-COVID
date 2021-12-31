@@ -14,6 +14,7 @@ export default function CustomButton(props: IProps) {
   return (
     <TouchableOpacity
       style={[styles.button, buttonProps.style]}
+      testID="customButton"
       {...buttonProps}>
       <CustomText
         type="h4"
